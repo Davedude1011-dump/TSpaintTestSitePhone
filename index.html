@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Test</title>
+    <link rel="stylesheet" href="CSS.css" />
+    <script src="JS.js"></script>
+  </head>
+  <body id="body">
+    <div id="color"></div>
+    <!-- Page Border: -->
+    <div id="pageBorder" style="left: 15%">
+      <div id="innerSquares">
+        <div id="A1">
+          <button
+            onclick="a1fu()"
+            id="a1"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="A2">
+          <button
+            onclick="a2fu()"
+            id="a2"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="A3">
+          <button
+            onclick="a3fu()"
+            id="a3"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="A4">
+          <button
+            onclick="a4fu()"
+            id="a4"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="A5">
+          <button
+            onclick="a5fu()"
+            id="a5"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="B1">
+          <button
+            onclick="b1fu()"
+            id="b1"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="B2">
+          <button
+            onclick="b2fu()"
+            id="b2"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="B3">
+          <button
+            onclick="b3fu()"
+            id="b3"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="B4">
+          <button
+            onclick="b4fu()"
+            id="b4"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="B5">
+          <button
+            onclick="b5fu()"
+            id="b5"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="C1">
+          <button
+            onclick="c1fu()"
+            id="c1"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="C2">
+          <button
+            onclick="c2fu()"
+            id="c2"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="C3">
+          <button
+            onclick="c3fu()"
+            id="c3"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="C4">
+          <button
+            onclick="c4fu()"
+            id="c4"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="C5">
+          <button
+            onclick="c5fu()"
+            id="c5"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="D1">
+          <button
+            onclick="d1fu()"
+            id="d1"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="D2">
+          <button
+            onclick="d2fu()"
+            id="d2"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="D3">
+          <button
+            onclick="d3fu()"
+            id="d3"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="D4">
+          <button
+            onclick="d4fu()"
+            id="d4"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="D5">
+          <button
+            onclick="d5fu()"
+            id="d5"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="E1">
+          <button
+            onclick="e1fu()"
+            id="e1"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="E2">
+          <button
+            onclick="e2fu()"
+            id="e2"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="E3">
+          <button
+            onclick="e3fu()"
+            id="e3"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="E4">
+          <button
+            onclick="e4fu()"
+            id="e4"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+        <div id="E5">
+          <button
+            onclick="e5fu()"
+            id="e5"
+            style="height: 100%; width: 100%; border-radius: 2px"
+          ></button>
+        </div>
+      </div>
+    </div>
+    <div id="sideTabs">
+      <div id="leftSideTab" style="top:50%">
+        <div id="leftSideTabTitle">
+          <h1 align="center">Title</h1>
+        </div>
+        <div id="leftDesc"><p style="position: absolute; left: 1%">In this Tab you have options for coloring in the board, with different colors. thats it, nothing else, <i>the other Tabs more interesting</i></p></div>
+        <div id="leftSideTabList">
+          <div id="leftList1">
+            <button
+              style="
+                height: 100%;
+                width: 100%;
+                border-radius: 5px;
+                background-color: red;
+              "
+              id="Red"
+              onclick="red()"
+            >
+              <h1 style="position: absolute; top: -5px; left: 40%">Red</h1>
+            </button>
+          </div>
+          <div id="leftList2">
+            <button
+              style="
+                height: 100%;
+                width: 100%;
+                border-radius: 5px;
+                background-color: blue;
+              "
+              id="Blue"
+              onclick="blue()"
+            >
+              <h1 style="position: absolute; top: -5px; left: 40%">Blue</h1>
+            </button>
+          </div>
+          <div id="leftList3">
+            <button
+              style="
+                height: 100%;
+                width: 100%;
+                border-radius: 5px;
+                background-color: yellow;
+              "
+              id="Yellow"
+              onclick="yellow()"
+            >
+              <h1 style="position: absolute; top: -5px; left: 40%">Yellow</h1>
+            </button>
+          </div>
+          <div id="leftList4">
+            <button
+              style="
+                height: 100%;
+                width: 100%;
+                border-radius: 5px;
+                background-color: black;
+              "
+              id="Black"
+              onclick="black()"
+            >
+              <h1
+                style="position: absolute; top: -5px; left: 40%; color: white"
+              >
+                Black
+              </h1>
+            </button>
+          </div>
+          <div id="leftList5">
+            <button
+              style="height: 100%; width: 100%; border-radius: 5px"
+              onclick="white()"
+            >
+              <h1 style="position: absolute; top: -5px; left: 35%" id="White">
+                White
+              </h1>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="rightSideTab" style="top:50%">
+        <div id="rightSideTabTitle">
+          <h1 align="center">Title</h1>
+        </div>
+        <div id="rightDesc">
+          <p style="position: absolute; left: 1%">In this Tab you have options for changing the board, website and gaining custom colors using a # color-code, background will turn the background to the currently selected color.</p>
+        </div>
+        <div id="rightSideTabList">
+          <div id="rightList1">
+            <button
+              style="
+                height: 100%;
+                width: 100%;
+                border-radius: 5px;
+              "
+              id="reset"
+              onclick="blank()"
+            >
+              <h1 style="position: absolute; top: -5px; left: 40%">Reset</h1>
+            </button>
+          </div>
+          <div id="rightList2"><button
+            style="
+              height: 100%;
+              width: 100%;
+              border-radius: 5px;
+            "
+            onclick="changeBackground()"
+          >
+            <h1 style="position: absolute; top: -5px; left: 25%">Background</h1>
+          </button></div>
+          <div id="rightList3"><button
+            style="
+              height: 100%;
+              width: 100%;
+              border-radius: 5px;
+            "
+            id="sidegone"
+            onclick="sideBarGone()"
+          >
+            <h1 style="position: absolute; top: -5px; left: 23%">Remove Tabs</h1>
+          </button></div>
+          <div id="rightList4"><input
+            style="
+              height: 100%;
+              width: 97.5%;
+            "
+            placeholder="⠀⠀⠀⠀⠀Input Your Custom #CODE here."
+            id="customInput"
+          >
+          </input></div>
+          <div id="rightList5">
+            <button
+              style="
+                height: 100%;
+                width: 100%;
+                border-radius: 5px;
+              "
+              id="reset"
+              onclick="custom()"
+            >
+              <h1 style="position: absolute; top: -5px; left: 40%">Apply</h1>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+            style="
+              height: 50px;
+              width: 10%;
+              border-radius: 5px;
+              display: none;
+            "
+            id="sideback"
+            onclick="sideBarBack()"
+          >
+            <h1><strong>Place Tabs</strong></h1>
+          </button>
+  </body>
+</html>

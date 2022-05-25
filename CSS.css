@@ -1,0 +1,371 @@
+body {
+    background-color: lightskyblue
+}
+
+#leftSideTab {
+    background-color: rgb(0, 128, 255);
+    position: absolute;
+    border: 10px solid black;
+    left: 5%;
+    top: 8%;
+    height: 800px;
+    width: 300px;
+    border-radius: 25px;
+}
+#leftSideTabTitle {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 60px;
+    width: 100.5%;
+    top: -1%;
+    border-radius: 20px;
+    left: -2%
+}
+#leftDesc {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 140px;
+    width: 100.5%;
+    top: 10%;
+    border-radius: 10px;
+    left: -2%
+}
+#leftList1 {
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    border: 5px solid black;
+    height: 60px;
+    width: 100.5%;
+    top: 40%;
+    border-radius: 10px;
+    left: -2%
+}
+#leftList2 {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 60px;
+    width: 100.5%;
+    top: 50%;
+    border-radius: 10px;
+    left: -2%
+}
+#leftList3 {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 60px;
+    width: 100.5%;
+    top: 60%;
+    border-radius: 10px;
+    left: -2%
+}
+#leftList4 {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 60px;
+    width: 100.5%;
+    top: 70%;
+    border-radius: 10px;
+    left: -2%
+}
+#leftList5 {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 60px;
+    width: 100.5%;
+    top: 80%;
+    border-radius: 10px;
+    left: -2%
+}
+
+#rightSideTab {
+    background-color: rgb(0, 140, 255);
+    position: absolute;
+    border: 10px solid black;
+    left: 78%;
+    top: 8%;
+    height: 800px;
+    width: 300px;
+    border-radius: 25px;
+}
+#rightSideTabTitle {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 60px;
+    width: 101%;
+    top: -1%;
+    border-radius: 20px;
+    left: -2%
+}
+#rightDesc {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 140px;
+    width: 100.5%;
+    top: 10%;
+    border-radius: 10px;
+    left: -2%
+}
+#rightList1 {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 60px;
+    width: 100.5%;
+    top: 40%;
+    border-radius: 10px;
+    left: -2%
+}
+#rightList2 {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 60px;
+    width: 100.5%;
+    top: 50%;
+    border-radius: 10px;
+    left: -2%
+}
+#rightList3 {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 60px;
+    width: 100.5%;
+    top: 60%;
+    border-radius: 10px;
+    left: -2%
+}
+#rightList4 {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 60px;
+    width: 100.5%;
+    top: 70%;
+    border-radius: 10px;
+    left: -2%
+}
+#rightList5 {
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border: 5px solid black;
+    height: 60px;
+    width: 100.5%;
+    top: 80%;
+    border-radius: 10px;
+    left: -2%
+}
+
+#pageBorder {
+    background-color: white;
+    position: absolute;
+    border: 10px solid black;
+    left: 28.5%;
+    top: 8%;
+    height: 800px;
+    width: 800px;
+    border-radius: 15px;
+}
+#A1 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 0%
+}
+#A2 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 20%
+}
+#A3 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 40%;
+}
+#A4 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 60%
+}
+#A5 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 80%;
+}
+#B1 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 0%;
+    top:20%
+}
+#B2 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 20%;
+    top:20%
+}
+#B3 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 40%;
+    top:20%
+}
+#B4 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 60%;
+    top:20%
+}
+#B5 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 80%;
+    top:20%
+}
+#C1 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 0%;
+    top:40%
+}
+#C2 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 20%;
+    top:40%
+}
+#C3 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 40%;
+    top:40%
+}
+#C4 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 60%;
+    top:40%
+}
+#C5 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 80%;
+    top:40%
+}
+#D1 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 0%;
+    top:60%
+}
+#D2 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 20%;
+    top:60%
+}
+#D3 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 40%;
+    top:60%
+}
+#D4 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 60%;
+    top:60%
+}
+#D5 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 80%;
+    top:60%
+}
+#E1 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 0%;
+    top:80%
+}
+#E2 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 20%;
+    top:80%
+}
+#E3 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 40%;
+    top:80%
+}
+#E4 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 60%;
+    top:80%
+}
+#E5 {
+    position: absolute;
+    border: 2px solid black;
+    height: 160px;
+    width: 160px;
+    left: 80%;
+    top:80%
+}
