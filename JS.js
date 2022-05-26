@@ -1,17 +1,22 @@
 function red() {
     document.getElementById("color").style.color = "red"
+    document.getElementById("pallete").style.backgroundColor = document.getElementById("color").style.color
 }
 function blue() {
     document.getElementById("color").style.color = "blue"
+    document.getElementById("pallete").style.backgroundColor = document.getElementById("color").style.color
 }
 function yellow() {
     document.getElementById("color").style.color = "yellow"
+    document.getElementById("pallete").style.backgroundColor = document.getElementById("color").style.color
 }
 function black() {
     document.getElementById("color").style.color = "black"
+    document.getElementById("pallete").style.backgroundColor = document.getElementById("color").style.color
 }
 function white() {
     document.getElementById("color").style.color = "white"
+    document.getElementById("pallete").style.backgroundColor = document.getElementById("color").style.color
 }
 
 function custom() {
@@ -24,9 +29,11 @@ function custom() {
         document.getElementById("e2").style.backgroundColor = "red"
         document.getElementById("e3").style.backgroundColor = "blue"
         document.getElementById("e4").style.backgroundColor = "yellow"
+        document.getElementById("pallete").style.backgroundColor = document.getElementById("color").style.color
     }
     else {
         document.getElementById("color").style.color = document.getElementById("customInput").value
+        document.getElementById("pallete").style.backgroundColor = document.getElementById("color").style.color
     }
 }
 
